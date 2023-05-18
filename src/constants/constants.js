@@ -1,0 +1,62 @@
+export const projects = [
+  {
+    title: 'TIME TRACKER',
+    description: "Using React, Node.js, Express & MongoDB, the application was built with CRUD functionalities in mind. Users will be able to create any future task that need to be executed and also set timers.",
+      image: '/images/1.png',
+      tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: '',
+    visit: 'https://github.com/AbegundeStephen/React-Native',
+    id: 0,
+  },
+  {
+    title: 'DATING APP',
+    description:"An application that connect users for potential relationship of any kind. users can signup and upload their picture for others to see.",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript'],
+    source: '',
+    visit: '',
+    id: 1,
+  },
+  {
+    title: 'SOCIAL NETWORK',
+    description: "An awesome popular social network app built with the MERN framework. The backend is hosted in Heroku, and the frontend site is hosted in firebase. Firebase also handles the authentication functionality.",
+      image: '/images/3.jpg',
+      tags: ['Mongodb', 'node','React'],
+    source: '',
+    visit: '',
+    id: 2,
+  },
+  {
+    title: 'REAL-TIME CHAT APP',
+    description: "This is a real-time Chat Application with its database built with mongodb, authentication with firebase and real-time feat ",
+    image: '/images/4.jpg',
+    tags: ['React', 'pusher', 'node','Mongodb'],
+    source: '',
+    visit: 'https://github.com/AbegundeStephen/messaging-app-backend',
+    id: 3,
+  },
+  {
+  title: 'MOVIE REVIEW APP',
+  description: "This app queries the mongodb database for movie titles, year of production and their respective ratings. Users can also leave reviews for any selected movie.",
+    image: '/images/1.png',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
+  source: '',
+  visit: '',
+  id: 0,
+  },
+  {
+    title: 'E-COMMERCE',
+    description:"An application that connect users for potential relationship of any kind. users can signup and upload their picture for others to see.",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript'],
+    source: '',
+    visit: 'https://github.com/AbegundeStephen/shop',
+    id: 1,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2021, text: 'Started my journey and took a deep dive into the rabid hole of software engineering.', },
+  { year: 2022, text: 'Shared my projects with the world, then worked as a freelance developer.', },
+  { year: 2023, text: 'Working on my own platform, Gogreen.', },
+];
